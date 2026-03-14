@@ -1,4 +1,3 @@
-
 <?xml version="1.0" ?>
 <robot name="drone">
   <link name="base_link">
