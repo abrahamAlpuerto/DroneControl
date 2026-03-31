@@ -1,0 +1,22 @@
+--- Final H2 Controller Performance Metrics ---
+Altitude (Z) Target: 2.0m
+  Overshoot:     0.06%
+  Settling Time: 0.713 s
+
+Position (X) Target: 0.0m
+  Max Deviation: 1.0000 m (Absolute Max Deviation)
+  Settling Time: Did not settle
+-----------------------------------------------
+
+
+Calculating Closed-Loop Dynamics...
+Simulating Step Responses...
+
+--- PERFORMANCE METRICS (2% Error Band) ---
+ALTITUDE (Z):
+  Baseline  -> Overshoot:  20.77%, Settling Time: 5.39s
+  Optimized -> Overshoot:   3.75%, Settling Time: 3.05s
+
+POSITION (X):
+  Baseline  -> Overshoot:  32.21%, Settling Time: 5.80s
+  Optimized -> Overshoot:   3.85%, Settling Time: 1.70s
