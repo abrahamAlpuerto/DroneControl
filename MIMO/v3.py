@@ -88,7 +88,7 @@ def run_pybullet_sim(K_aug, show_gui=False, return_history=False):
     p.setGravity(0, 0, -9.81)
     p.loadURDF("plane.urdf")
     
-    start_pos = [0, 0, 1]
+    start_pos = [0, 0, .1]
     droneId = p.loadURDF("my_drone.urdf", start_pos)
     
     dt = 1/240.0
@@ -99,8 +99,8 @@ def run_pybullet_sim(K_aug, show_gui=False, return_history=False):
     g = 9.81
     
     
-    target_z =  1
-    target_x = 0
+    target_z =  2
+    target_x = 1
 
     target_state = np.array([target_z, 0.0, target_x, 0.0, 0.0, 0.0])
     
@@ -359,7 +359,7 @@ if __name__ == "__main__":
 
     fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 8))
     target_z = 2.0
-    target_x = 0.0
+    target_x = 1.0
 
     ax1.plot(time_hist, alt_hist, label='Optimal Altitude (z)', color='blue', linewidth=2)
     ax1.axhline(y=target_z, color='red', linestyle='--', label=f'Target Z ({target_z}m)')
