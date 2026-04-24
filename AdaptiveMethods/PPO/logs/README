@@ -1,0 +1,5 @@
+# logs/
+
+Contains training and evaluation logs for PPO experiments.
+
+- `evaluations.npz`: Numpy archive of evaluation metrics.

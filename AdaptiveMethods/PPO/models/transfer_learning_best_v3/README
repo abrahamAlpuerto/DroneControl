@@ -1,0 +1,6 @@
+# transfer_learning_best_v3
+
+Best PPO model checkpoint from transfer learning experiment 3.
+
+- `best_model.zip`: Saved PPO model
+- `flight_sim.mp4`: Example simulation video

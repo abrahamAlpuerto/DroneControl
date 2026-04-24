@@ -1,0 +1,14 @@
+# AdaptiveMethods
+
+This module implements adaptive control for quadrotors using deep reinforcement learning (DQN and PPO). It contains:
+
+- **DQN/**: Deep Q-Learning agent and environment for quadrotor control and fault tolerance.
+- **PPO/**: Proximal Policy Optimization agent, environment, and transfer learning scripts.
+
+Each subfolder contains training scripts, simulation viewers, and saved models/weights.
+
+## Structure
+- `DQN/` — DQL agent, environment, weights, and training scripts
+- `PPO/` — PPO agent, environment, transfer learning, logs, and models
+
+See subfolder READMEs for details.

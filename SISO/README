@@ -1,0 +1,13 @@
+# SISO
+
+Classical Single-Input Single-Output (SISO) control for quadrotor altitude and position.
+
+- `v1.py`: SISO PID/LQI controller implementation
+- `plots.py`: Bode, Nyquist, and time-domain plots
+- `SISO.pdf`: Reference or report
+- `p1.png`–`p4.png`: Example plots
+
+## Usage
+Run `v1.py` for simulation, or use `plots.py` for analysis/visualization.
+
+Dependencies: control, numpy, matplotlib, pybullet

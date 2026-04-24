@@ -1,0 +1,5 @@
+# transfer_learning_best
+
+Best PPO model checkpoint from transfer learning experiment 1.
+
+- `best_model.zip`: Saved PPO model

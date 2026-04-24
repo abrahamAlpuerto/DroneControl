@@ -1,0 +1,14 @@
+# DQN (Deep Q-Learning)
+
+Implements a Deep Q-Learning (DQL) agent for quadrotor control and fault tolerance. Includes:
+
+- `dql_agent.py`: DQL agent implementation (PyTorch)
+- `dql_quad_env.py`: Custom quadrotor environment for DQL
+- `maindql.py`: Training loop for DQL agent
+- `watch_simulation.py`: Visualize trained agent in simulation
+- `dql_quad_weights.pth`: Pretrained weights
+
+## Usage
+Run `maindql.py` to train the agent, or `watch_simulation.py` to view a trained agent.
+
+Dependencies: torch, numpy, matplotlib, pybullet

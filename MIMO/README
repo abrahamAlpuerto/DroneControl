@@ -1,0 +1,14 @@
+# MIMO
+
+Classical Multi-Input Multi-Output (MIMO) control analysis for quadrotors.
+
+- `analysis_book.ipynb`: Jupyter notebook for MIMO system analysis and LQR design
+- `bode.py`: Bode and Nyquist plots for system analysis
+- `h_infi.py`: H-infinity control (if implemented)
+- `metrics.txt`: Performance metrics
+- `v2.py`, `v3.py`: Additional MIMO control experiments
+
+## Usage
+Run scripts directly or explore the notebook for step-by-step analysis.
+
+Dependencies: control, numpy, matplotlib, jupyter

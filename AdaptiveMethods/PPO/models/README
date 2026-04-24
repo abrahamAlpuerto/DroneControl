@@ -1,0 +1,8 @@
+# models/
+
+Saved PPO models and transfer learning checkpoints.
+
+- `ppo_quad_adaptive_v*`: PPO models with different configurations
+- `transfer_learning_best*`: Best models from transfer learning experiments
+
+See subfolder READMEs for details on each transfer learning run.
