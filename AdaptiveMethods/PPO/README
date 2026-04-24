@@ -1,17 +1,21 @@
-# PPO (Proximal Policy Optimization)
+# PPO (Proximal Policy Optimization) for Quadrotors
 
-Implements PPO-based adaptive control for quadrotors, including transfer learning and curriculum learning for fault tolerance.
+Implements **PPO-based adaptive control** for quadrotors, including transfer learning and curriculum learning for fault tolerance.
 
-- `ppo_quad_env.py`: Custom PyBullet environment for PPO
-- `ppo_train.py`: Main PPO training script
-- `resume_training.py`: Resume training from checkpoint
-- `transfer_learning.py`: Transfer learning experiments
-- `watch_ppo_simulation.py`: Visualize PPO agent
-- `get_graphs.py`, `plot_motor_effort.py`: Plotting utilities
-- `logs/`: Training and evaluation logs
-- `models/`: Saved PPO models and transfer learning results
+### Project Structure
+* `ppo_quad_env.py`: Custom PyBullet environment for PPO
+* `ppo_train.py`: Main PPO training script
+* `resume_training.py`: Resume training from checkpoint
+* `transfer_learning.py`: Transfer learning experiments
+* `watch_ppo_simulation.py`: Visualize PPO agent
+* `get_graphs.py`, `plot_motor_effort.py`: Plotting utilities
+* `/logs`: Training and evaluation logs
+* `/models`: Saved PPO models and transfer learning results
 
-## Usage
-Run `ppo_train.py` to train, or `watch_ppo_simulation.py` to visualize.
+---
 
-Dependencies: stable-baselines3, gymnasium, pybullet, numpy, matplotlib
+## 🚀 Usage
+
+To start training, run:
+```bash
+python ppo_train.py
