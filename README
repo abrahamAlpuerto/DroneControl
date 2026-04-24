@@ -1,0 +1,25 @@
+# DroneControl
+
+This repository contains code and resources for advanced drone control using both classical and adaptive (reinforcement learning) methods. The project is organized into the following main modules:
+
+- **AdaptiveMethods/**: Deep RL (DQN, PPO) for quadrotor control and fault tolerance.
+- **MIMO/**: Multi-Input Multi-Output control analysis and design (LQR, Nyquist, Bode, etc.).
+- **SISO/**: Single-Input Single-Output control (PID, LQI) for altitude and position.
+- **my_drone.urdf**: URDF model of the quadrotor for simulation.
+
+## Requirements
+See `requirements.txt` for Python dependencies.
+
+## Structure
+- `AdaptiveMethods/` — RL-based adaptive control
+- `MIMO/` — Classical MIMO control analysis
+- `SISO/` — Classical SISO control
+
+## Getting Started
+1. Install dependencies: `pip install -r requirements.txt`
+2. Explore each folder for detailed instructions and scripts.
+
+
+
+## License
+[Specify your license here]
